@@ -5,8 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './navbar';
-import Home from './home';
 
 <link
   rel="stylesheet"
@@ -17,7 +15,6 @@ import Home from './home';
 
 ReactDOM.render(
   <Router>
-    <NavBar/>
     <App/>
   </Router>,
   document.getElementById('root')
