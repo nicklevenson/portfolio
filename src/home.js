@@ -6,7 +6,7 @@ import reduxImage from './assets/redux.png'
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="container jumbotron bg-real-dark text-white mb-5 ">
+      <div className="container jumbotron bg-real-dark text-white mb-5" id="home">
         <div className="row my-5">
           <div className="col-12 text-center align-items-center">
             <h1>Full Stack Web Developer</h1>
