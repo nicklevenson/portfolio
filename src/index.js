@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <Router>
-    <Route path="/home" component={App}/>
+    <Route path="/" component={App}/>
   </Router>,
   document.getElementById('root')
 );
