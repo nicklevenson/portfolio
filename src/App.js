@@ -12,8 +12,8 @@ class App extends React.Component{
     return (
         <div className="mx-auto container h-100">
           <NavBar/>
-          <div className="h-50 row align-items-center">
-            <Switch>
+          <div className="row h-100">
+            <Switch className="pl-0">
               <Route exact path="/portfolio" component={Home}/>
               <Route exact path="/portfolio/projects" component={Projects}/>
             </Switch> 
