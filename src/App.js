@@ -7,7 +7,7 @@ import NavBar from './navbar';
 class App extends React.Component{
   render() {
     return (
-      <div className="app">
+      <div className="app mx-auto">
           <NavBar/>
           <Route exact path="/projects" component={Projects}/>
       </div>
