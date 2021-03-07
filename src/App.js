@@ -7,10 +7,8 @@ class App extends React.Component{
   render() {
     return (
       <div className="App">
-        <Router>
           <NavBar/>
           <Route exact path="/projects" component={Projects}/>
-        </Router>
       </div>
     );
   }
