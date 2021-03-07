@@ -1,5 +1,8 @@
 import React from 'react'
-
+import railsImage from './assets/rails.png'
+import jsImage from './assets/js.png'
+import reactImage from './assets/react.png'
+import reduxImage from './assets/redux.png'
 export default class Home extends React.Component {
   render() {
     return (
@@ -8,9 +11,10 @@ export default class Home extends React.Component {
         <i>Strong full-stack developer specializing in Rails, JavaScript, and React. With experience in the film industry and a deep passion for music and philosophy, I bring creative problem solving skills, a strong work ethic, fresh ideas, and a desire to build projects that have a meaningful impact on society. Future employers will benefit from my ability to learn quickly, create things swiftly and with care, as well as deep dive into bugs to solve the problem at hand. </i>
         <br/><br/>
         <h2>Skills Include</h2>
-        <span>Rails</span>
-        <span>React</span>
-        <span>JavaScript</span>
+        <span className="mx-5"><img src={railsImage} height="100"></img></span>
+        <span className="mx-5"><img src={jsImage} height="100"></img></span>
+        <span className="mx-5"><img src={reactImage} height="100"></img></span>
+        <span className="mx-5"><img src={reduxImage} height="100"></img></span>
       </div>
     )
   }
