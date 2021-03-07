@@ -5,6 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './navbar';
+import Home from './home';
+
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -14,7 +17,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <Router>
-    <Route path="/" component={App}/>
+    <NavBar/>
+    <App/>
   </Router>,
   document.getElementById('root')
 );

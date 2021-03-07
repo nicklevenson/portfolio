@@ -5,9 +5,9 @@ export default function NavBar(){
     <div className="container-lg navbar">
       <h1 className="navbar-brand">Nick Levenson</h1>
       <div className="nav float-end">
-        <NavLink to="/" className="nav-link">Home</NavLink>
-        <NavLink to="/projects" className="nav-link">Projects</NavLink>
-        <NavLink to="/contact" className="nav-link">Contact</NavLink>
+        <NavLink to="/portfolio" className="nav-link">Home</NavLink>
+        <NavLink to="/portfolio/projects" className="nav-link">Projects</NavLink>
+        <NavLink to="/portfolio/contact" className="nav-link">Contact</NavLink>
       </div>
     </div>
    )
