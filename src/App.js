@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';
-import {BrowserRouter as Router, Route, NavLink} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Projects from './containers/projects'
-import NavBar from './components/navbar';
+import NavBar from './navbar';
 class App extends React.Component{
   render() {
     return (
