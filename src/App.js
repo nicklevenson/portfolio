@@ -3,6 +3,7 @@ import './App.css';
 import Projects from './containers/projects.js'
 import Home from './home';
 import NavBar from './navbar';
+import Contact from './components/contact.js'
 
 
 class App extends React.Component{
@@ -13,6 +14,7 @@ class App extends React.Component{
           <div className="row">
             <Home />
             <Projects />
+            <Contact />
           </div>
         </div>
     );
