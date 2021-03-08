@@ -6,12 +6,12 @@ export default class Project extends React.Component {
   render() {
     console.log(this.project.img)
     return(
-      <div className="row m-3">
+      <div className="">
         <br/>
-        <Card style={{ width: '45em', margin: "auto" }}>
+        <Card className="bg-darkish text-white"style={{ width: '60em', margin: "auto" }}>
 
         <Card.Body>
-          <h1>{this.project.name}</h1>
+          <h2>{this.project.name}</h2>
           <Card.Text>
             <i>{this.project.logline}</i>
           </Card.Text>

@@ -40,7 +40,7 @@
 .iframe-container {
   margin-bottom: 5%;
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 56.25%; 
   
 }
 .project-image {

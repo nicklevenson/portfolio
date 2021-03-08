@@ -11,7 +11,7 @@ export default class Home extends React.Component {
           <div className="row m-5 my-auto">
             <div className="col-12 text-center">
               <h1>Full Stack Web Developer</h1>
-              <i>Strong full-stack developer specializing in Rails, 
+              <i>Hi, I'm Nick! I'm a strong full-stack developer specializing in Rails, 
                 JavaScript, and React. 
                 With experience in the film 
                 industry and a deep passion for music and philosophy, 
@@ -24,7 +24,7 @@ export default class Home extends React.Component {
           </div>
           <div className="row my-5">
             <div className="col-12 text-center">
-              <h2>My Stack</h2>
+              <h2>My Stack Includes</h2>
               <br/>
               <span className="m-5"><img src={railsImage} height="100"></img></span>
               <span className="m-5"><img src={jsImage} height="100"></img></span>
