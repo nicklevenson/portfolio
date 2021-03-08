@@ -7,7 +7,7 @@ export default class Projects extends React.Component {
   state = {
     projects: [
       {
-        name: "Plane Game!",
+        name: "Plane Game",
         logline: "An in browser game which simulates the physics of throwing a paper plane at a target and keeps track of scores",
         descriptions: "JavaScript - Ruby on Rails API - PostgreSQL database - Responsive vanilla CSS", 
         url: "https://nicklevenson.github.io/planegame/", 
@@ -44,6 +44,7 @@ export default class Projects extends React.Component {
     return (
 
       <div id="projects" className=" w-100 d-table vh-100 bg-real-dark text-white">
+        <br/>
         <h1>Projects</h1>
         <div className="">
           <div className="d-inline-block">

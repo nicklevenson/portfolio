@@ -36,7 +36,15 @@
     transform: rotate(360deg);
   }
 }
-
+.prof-img {
+  justify-self: right;
+  height: 20vh;
+  width: auto;
+  border-radius: 25px;
+}
+.card {
+  /* height: 600px; */
+}
 .iframe-container {
   margin-bottom: 5%;
   position: relative;
