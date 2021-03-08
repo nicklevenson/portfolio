@@ -6,12 +6,20 @@ import reduxImage from './assets/redux.png'
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="d-table">
-        <div className="container py-auto col-12 vh-100 bg-real-dark text-white d-table-cell align-middle" id="home">
+      <div className="d-table" id="home">
+        <div className="container py-auto col-12 vh-100 bg-real-dark text-white d-table-cell align-middle">
           <div className="row m-5 my-auto">
             <div className="col-12 text-center">
               <h1>Full Stack Web Developer</h1>
-              <i>Strong full-stack developer specializing in Rails, JavaScript, and React. With experience in the film industry and a deep passion for music and philosophy, I bring creative problem solving skills, a strong work ethic, fresh ideas, and a desire to build projects that have a meaningful impact on society. Future employers will benefit from my ability to learn quickly, create things swiftly and with care, as well as deep dive into bugs to solve the problem at hand. </i>
+              <i>Strong full-stack developer specializing in Rails, 
+                JavaScript, and React. 
+                With experience in the film 
+                industry and a deep passion for music and philosophy, 
+                I bring creative problem solving skills, a strong work ethic, 
+                fresh ideas, and a desire to build projects that have a meaningful 
+                impact on society. Future employers will benefit from my ability to 
+                learn quickly, create things swiftly and with care, as well as deep dive 
+                into bugs to solve the problem at hand. </i>
             </div>
           </div>
           <div className="row my-5">
