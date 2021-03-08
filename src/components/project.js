@@ -6,14 +6,16 @@ export default class Project extends React.Component {
   render() {
     console.log(this.project.img)
     return(
-      <div className="d-inline-block m-5">
+      <div className="d-inline-block m-3">
         <Card style={{ width: '25em' }}>
-        <Card.Img src={this.project.img}/>
+        <div class="iframe-container">
+          {/* <iframe src="https://player.vimeo.com/video/513994621" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe> */}
+          <img class="project-image"src={this.project.img}></img>
+        </div>
         <Card.Body>
           <Card.Title>{this.project.name}</Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
+            {this.project.logline}
           </Card.Text>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>

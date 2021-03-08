@@ -8,7 +8,7 @@ export default class Projects extends React.Component {
     projects: [
       {
         name: "Plane Game!",
-        logline: "An in browser game which simulates the physics of throwing a paper plane at a target",
+        logline: "An in browser game which simulates the physics of throwing a paper plane at a target and keeps track of scores",
         description: "Utilizes JavaScript for frontend interactions, fetch requests to the backend, and game engine. Uses a Ruby on Rails API as the backend for game stats with a PostgreSQL database. Responsive vanilla CSS for styling.", 
         url: "https://nicklevenson.github.io/planegame/", 
         github:"https://github.com/nicklevenson/planegame", 
