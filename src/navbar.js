@@ -10,7 +10,7 @@ export default function NavBar(){
         to="home"
         spy={true}
         smooth={true}
-        offset={-60}
+        offset={-70}
         duration={500}
       >Home</Link>
        <Link
