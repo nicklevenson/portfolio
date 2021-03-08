@@ -3,7 +3,7 @@ import railsImage from './assets/rails.png'
 import jsImage from './assets/js.png'
 import reactImage from './assets/react.png'
 import reduxImage from './assets/redux.png'
-import meImage from './assets/me.jpeg'
+// import meImage from './assets/me.jpeg'
 export default class Home extends React.Component {
   render() {
     return (
