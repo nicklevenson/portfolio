@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "react-scroll";
 export default function NavBar(){
   return (
-    <div className="navbar m-4">
+    <div className="navbar sticky-top bg-white">
       <h2 className="">Nick Levenson</h2>
       <div className="nav float-end">
       <Link
@@ -10,7 +10,7 @@ export default function NavBar(){
         to="home"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-60}
         duration={500}
       >Home</Link>
        <Link
@@ -18,7 +18,7 @@ export default function NavBar(){
         to="projects"
         spy={true}
         smooth={true}
-        offset={-70}
+        offset={-60}
         duration={500}
       >Projects</Link>
       </div>

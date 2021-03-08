@@ -8,9 +8,9 @@ import NavBar from './navbar';
 class App extends React.Component{
   render() {
     return (
-        <div className="mx-auto container h-100">
+        <div className="container-fluid p-0">
           <NavBar/>
-          <div className="row h-100">
+          <div className="row">
             <Home />
             <Projects />
           </div>
