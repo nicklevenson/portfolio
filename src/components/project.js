@@ -22,7 +22,7 @@ export default class Project extends React.Component {
 
               <Accordion>
                 <Accordion.Toggle as={Card.Text} eventKey="1">
-                  <h5 className="text-center m-0">Technologies Used ▽</h5>
+                  <h5 className="text-center dropdown" activeClass="pannel-toggle">Technologies Used ▽</h5>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
 

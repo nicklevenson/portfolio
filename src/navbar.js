@@ -14,7 +14,7 @@ export default function NavBar(){
       </div>
       <div className="p-1">
       <Link
-        className="p-5"
+        className="nav-item"
         activeClass="active"
         to="home"
         spy={true}
@@ -23,7 +23,7 @@ export default function NavBar(){
         duration={500}
       >Home</Link>
        <Link
-        className="p-5"
+        className="nav-item"
         activeClass="active"
         to="projects"
         spy={true}
@@ -31,9 +31,18 @@ export default function NavBar(){
         offset={-200}
         duration={500}
       >Projects</Link>
-      <a className="p-5">Resume</a>
       <Link
-        className="p-5"
+        className="nav-item"
+        activeClass="active"
+        to="projects"
+        spy={true}
+        smooth={true}
+        offset={-200}
+        duration={500}
+      >Blog</Link>
+      <a className="nav-item">Resume</a>
+      <Link
+        className="p-1 nav-item"
         activeClass="active"
         to="contact"
         spy={true}

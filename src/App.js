@@ -9,9 +9,9 @@ import Contact from './components/contact.js'
 class App extends React.Component{
   render() {
     return (
-        <div className="container-fluid p-0">
+        <div className="p-0">
           <NavBar/>
-          <div className="row">
+          <div className="">
             <Home />
             <Projects />
             <Contact />
