@@ -103,7 +103,9 @@
 .tech-stack {
   max-width: 100px;
   width: 25%;
-  margin: 5%;
+  margin-top: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 
