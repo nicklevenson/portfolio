@@ -13,7 +13,7 @@ export default class Projects extends React.Component {
         url: "https://nicklevenson.github.io/planegame/", 
         github:"https://github.com/nicklevenson/planegame", 
         blog: "https://dev.to/nicklevenson/game-building-with-javascript-4j7a", 
-        video:"https://player.vimeo.com/video/513994621", 
+        video:"https://vimeo.com/513994621", 
         img: planegame
       },
       {
@@ -23,17 +23,17 @@ export default class Projects extends React.Component {
         url: "https://memix.herokuapp.com/", 
         github:"https://github.com/nicklevenson/me-mix-3", 
         blog: "https://dev.to/nicklevenson/building-a-multimedia-content-sharing-website-with-rails-1gce", 
-        video:"https://player.vimeo.com/video/513995198", 
+        video:"https://vimeo.com/513995198", 
         img: memix
       },
       {
         name: "Recipe Freak",
         logline: "A social application allowing users to create and share their recipes, and add ingredients to grocery lists",
         descriptions: "Ruby, Sinatra, and a PostgreSQL database - MVC fundamentals - Bcrypt - Vanilla CSS and JavaScript", 
-        url: "", 
-        github:"", 
-        blog: "", 
-        video:"https://player.vimeo.com/video/513995538", 
+        url: "http://recipe-freak.herokuapp.com", 
+        github:"https://github.com/nicklevenson/recipe_freak", 
+        blog: "https://dev.to/nicklevenson/my-first-web-application-25lj", 
+        video:"https://vimeo.com/513995538", 
         img: recipefreak
       }
     ]
