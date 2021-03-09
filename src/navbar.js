@@ -22,7 +22,7 @@ export default function NavBar(){
             to="home"
             spy={true}
             smooth={true}
-            offset={-100}
+            offset={-110}
             duration={500}
           >Home</Link>
           <Link
@@ -41,7 +41,7 @@ export default function NavBar(){
             to="blog"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={-50}
             duration={500}
           >Blog</Link>
           <a className="page-links">Resume</a>
@@ -51,7 +51,7 @@ export default function NavBar(){
             to="contact"
             spy={true}
             smooth={true}
-            offset={-90}
+            offset={0}
             duration={500}
           >Contact</Link>
         </div>

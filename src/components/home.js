@@ -8,7 +8,7 @@ import bootstrapImage from '../assets/bootstrap.png'
 export default class Home extends React.Component {
   render() {
     return (
-      <div className=" w-100 d-table vh-100 " id="home">
+      <div className="w-100 d-table vh-100 " id="home">
         <div className="py-auto h-100 bg-light-red d-table-cell align-middle ">
           <div className="box m-auto">
             {/* <div className="col-12 text-center my-auto">

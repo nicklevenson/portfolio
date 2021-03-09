@@ -60,9 +60,10 @@
 }
 .nav-links {
   margin: 1vh;
+  
 }
 .page-links {
-  font-size: calc(5px + 1vw);
+  font-size: 15px;
   margin: 1vw;
 }
 
@@ -75,14 +76,14 @@
 .card-container {
   margin-left: 2%;
   margin-right: 2%;
+  width: 50vw;
   min-width: 250px;
-  max-width: 550px;
+  max-width: 500px;
 }
 
 .card:hover {
   box-shadow: 0px 2px 4px lightgrey;
 }
-
 
 .card {
   border: none !important;
@@ -112,9 +113,12 @@
   max-width: 700px;;
 }
 
+#home {
+  padding-top: 80px;
+}
 .tech-stack {
   max-width: 100px;
-  width: 25%;
+  width: 15vw;
   margin-top: 1em;
   margin-left: 5%;
   margin-right: 5%;
