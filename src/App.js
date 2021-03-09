@@ -4,7 +4,7 @@ import Projects from './containers/projects.js'
 import Home from './home';
 import NavBar from './navbar';
 import Contact from './components/contact.js'
-
+import BlogPosts from './containers/BlogPosts.js'
 
 class App extends React.Component{
   render() {
@@ -14,7 +14,9 @@ class App extends React.Component{
           <div className="">
             <Home />
             <Projects />
+            <BlogPosts />
             <Contact />
+        
           </div>
         </div>
     );

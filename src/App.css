@@ -40,14 +40,20 @@
 
 
 .title {
-  font-size: 3vw !important;
+  font-size: 3em !important;
   letter-spacing: 1vw;
-  line-height: 100%  
+  margin: 0;
+}
+.navbar {
+  margin: auto;
+  width: max-content;
 }
 
 .nav-icon {
-  width: 2rem;
-  margin: 1rem;
+  height:2em;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  
 }
 .nav-item {
   padding: 1rem;
@@ -104,6 +110,21 @@
 
 
 #contact {
-  height: 80vh;
-  padding-top: 10%;
+  height: 100vh;
+  
+}
+
+#blog {
+  width: 50%;
+  height: 100vh;
+}
+.blog-container {
+  text-align: center;
+  margin: auto;
+  width: 75%;
+}
+
+.blog-post {
+  font-style: italic;
+  padding: 1em;
 }

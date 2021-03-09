@@ -35,7 +35,7 @@ export default function NavBar(){
       <Link
         className="nav-item"
         activeClass="active"
-        to="projects"
+        to="blog"
         spy={true}
         smooth={true}
         offset={-200}
