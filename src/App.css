@@ -44,7 +44,7 @@
 
 
 .navbar-brand{
-  font-size: 2rem !important;
+  font-size: 1em !important;
   padding: 0 !important;
 }
 .navbar {
@@ -58,7 +58,7 @@
   padding: 5px;
 }
 .nav-item {
-  margin: auto;
+  margin: 2%;
 }
 .prof-img {
   justify-self: right;
@@ -67,10 +67,10 @@
   border-radius: 25px;
 }
 .card-container {
-  
   margin-left: 2%;
+  margin-right: 2%;
   min-width: 250px;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 .card {
@@ -80,12 +80,7 @@
 .card:hover {
   box-shadow: 0px 2px 4px lightgrey;
 }
-.iframe-container {
-  margin-bottom: 5%;
-  position: relative;
-  padding-bottom: 56.25%; 
-  
-}
+
 
 .card-text {
   margin: 0;
