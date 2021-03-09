@@ -4,6 +4,7 @@ import github from "./assets/github-dark.png"
 import linkedin from "./assets/linkedin.png"
 import dev from "./assets/dev.png"
 export default function NavBar(){
+  
   return (
     <div className="navbar-container sticky-top bg-white">
       <div className="float-start">
