@@ -3,6 +3,7 @@ import railsImage from './assets/rails.png'
 import jsImage from './assets/js.png'
 import reactImage from './assets/react.png'
 import reduxImage from './assets/redux.png'
+import bootstrapImage from './assets/bootstrap.png'
 // import meImage from './assets/me.jpeg'
 export default class Home extends React.Component {
   render() {
@@ -36,6 +37,7 @@ export default class Home extends React.Component {
               <img src={jsImage} className="tech-stack"></img>
               <img src={reactImage} className="tech-stack"></img>
               <img src={reduxImage} className="tech-stack"></img>
+              <img src={bootstrapImage} className="tech-stack"></img>
             </div>
           </div>
         </div>
