@@ -44,9 +44,10 @@ export default class Projects extends React.Component {
     return (
 
       <div id="projects" className=" w-100 d-table vh-100 bg-light-blue">
-        <br/>
+       
+        <div className="d-table-cell align-middle ">
         <h1>Projects</h1>
-        <div className="">
+        
           <div className="d-inline-block">
             {this.state.projects.map(p => <Project project={p}/>)}
           </div>

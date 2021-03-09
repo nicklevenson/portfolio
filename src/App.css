@@ -39,10 +39,9 @@
 
 
 
-.title {
-  font-size: 3em !important;
-  letter-spacing: 1vw;
-  margin: 0;
+.navbar-brand{
+  font-size: 2rem !important;
+  padding: 0 !important;
 }
 .navbar {
   margin: auto;
@@ -51,12 +50,10 @@
 
 .nav-icon {
   height:2em;
-  margin-left: 1rem;
-  margin-right: 1rem;
-  
+  padding: 5px;
 }
 .nav-item {
-  padding: 1rem;
+  margin: auto;
 }
 .prof-img {
   justify-self: right;

@@ -14,8 +14,8 @@ export default class BlogPosts extends React.Component {
   }
   render(){
     return(
-      <div id="blog" className="w-100 d-table bg-light-red">
-        <div className="blog-container mx-auto mt-5">
+      <div id="blog" className=" w-100 d-table vh-100 bg-light-red">
+        <div className="blog-container mx-auto mt-5 d-table-cell align-middle">
           <h1>Blog Posts</h1>
           {this.state.fetchedPosts.map(b => <BlogPost blog={b}></BlogPost>)}
         </div>
