@@ -65,6 +65,7 @@
   border-radius: 25px;
 }
 .card {
+  border: none !important;
   min-height: 450px;
 }
 .iframe-container {
@@ -98,7 +99,7 @@
   background-color: rgb(71, 50, 50);
   width: 80%;
 }
-.jumbotron {
+.box{
   max-width: 700px;;
 }
 
