@@ -10,9 +10,9 @@ export default function NavBar(){
         <div className="header">
           <div className="title d-inline-block">NICK LEVENSON </div>
           <div className="social-links d-inline-block">
-            <a><img src={github} className="nav-icon "></img></a>
-            <a><img src={linkedin} className="nav-icon "></img></a>
-            <a><img src={dev} className="nav-icon "></img></a>
+            <a href="https://github.com/nicklevenson" target="_blank"><img src={github} className="nav-icon "></img></a>
+            <a href="https://www.linkedin.com/in/nicholas-levenson-b3a927b2/" target="_blank"><img src={linkedin} className="nav-icon "></img></a>
+            <a href="https://dev.to/nicklevenson" target="_blank"><img src={dev} className="nav-icon "></img></a>
           </div>
         </div>
         <div className="nav-links">
@@ -44,7 +44,7 @@ export default function NavBar(){
             offset={-50}
             duration={500}
           >Blog</Link>
-          <a className="page-links">Resume</a>
+          <a className="page-links" href="https://docs.google.com/document/d/1DUuC8ioFa3sqBJVbjoxrfDJW7aKIoIX01YJgvKto-04/edit?usp=sharing" target="_blank">Resume</a>
           <Link
             className="page-links"
             activeClass="active"
