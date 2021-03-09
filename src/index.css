@@ -35,13 +35,13 @@ a {
   background-color: black;
 }
 .bg-light-green {
-  background-color: rgba(219, 252, 209, 0.397);
+  background-color: rgba(219, 252, 209, 0.397) !important;
 }
 .bg-light-blue {
-  background-color:rgba(209, 245, 252, 0.5) ;
+  background-color:rgba(209, 245, 252, 0.5)!important ;
 }
 .bg-light-red {
-  background-color: rgba(241, 225, 193, 0.5);
+  background-color: rgba(241, 225, 193, 0.5)!important;
 }
 
 .bg-darkish {

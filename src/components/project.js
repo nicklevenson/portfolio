@@ -11,7 +11,7 @@ export default class Project extends React.Component {
       <div className="d-inline-block p-5">
         <br/>
        
-          <Card className="bg-darkish text-white" style={{ width: '25em', maxWidth: "75vw", margin: "auto" }}>
+          <Card className="" style={{ width: '25em', maxWidth: "75vw", margin: "auto" }}>
               <a href={this.project.url} target="_blank">
                 <Card.Img src={this.project.img}></Card.Img>
                 <h2>{this.project.name}</h2>
