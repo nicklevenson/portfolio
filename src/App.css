@@ -67,9 +67,10 @@
   border-radius: 25px;
 }
 .card-container {
-  width: 30%;
+  
+  margin-left: 2%;
   min-width: 250px;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .card {
@@ -84,20 +85,6 @@
   position: relative;
   padding-bottom: 56.25%; 
   
-}
-.project-image {
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-}
-.iframe {
-  top: 0;
-  left: 0;
-  position: absolute;
-  height: 100%;
-  width: 100%;
 }
 
 .card-text {
