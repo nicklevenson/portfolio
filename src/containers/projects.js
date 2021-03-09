@@ -42,9 +42,8 @@ export default class Projects extends React.Component {
  
   render() {
     return (
-
-      <div id="projects" className=" w-100 d-table vh-100 bg-light-blue">
-       
+    
+      <div id="projects" className=" w-100 d-table vh-100 bg-light-red">
         <div className="d-table-cell align-middle ">
         <h1>Projects</h1>
         

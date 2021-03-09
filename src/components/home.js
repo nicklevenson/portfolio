@@ -1,15 +1,15 @@
 import React from 'react'
-import railsImage from './assets/rails.png'
-import jsImage from './assets/js.png'
-import reactImage from './assets/react.png'
-import reduxImage from './assets/redux.png'
-import bootstrapImage from './assets/bootstrap.png'
+import railsImage from '../assets/rails.png'
+import jsImage from '../assets/js.png'
+import reactImage from '../assets/react.png'
+import reduxImage from '../assets/redux.png'
+import bootstrapImage from '../assets/bootstrap.png'
 // import meImage from './assets/me.jpeg'
 export default class Home extends React.Component {
   render() {
     return (
       <div className=" w-100 d-table vh-100 " id="home">
-        <div className="py-auto h-100 bg-light-green d-table-cell align-middle ">
+        <div className="py-auto h-100 bg-light-red d-table-cell align-middle ">
           <div className="box m-auto">
             {/* <div className="col-12 text-center my-auto">
               <img src={meImage} class="prof-img"></img>
@@ -27,11 +27,13 @@ export default class Home extends React.Component {
                 impact on society. Future employers will benefit from my ability to 
                 learn quickly, create things swiftly and with care, as well as deep dive 
                 into bugs to solve the problem at hand. </i>
+              <br/><br/>
+              
             </div>
           </div>
           <div className="my-5">
             <div className="col-12 text-center">
-              <h2>My Stack Includes</h2>
+              <h2 >My Stack Includes</h2>
               
               <img src={railsImage} className="tech-stack"></img>
               <img src={jsImage} className="tech-stack"></img>

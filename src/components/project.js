@@ -8,34 +8,38 @@ export default class Project extends React.Component {
   render() {
     console.log(this.project.img)
     return(
-      <div className="d-inline-block p-5">
+      <div className="d-inline-block p-2 card-container">
         <br/>
        
-          <Card className="" style={{ width: '25em', maxWidth: "75vw", margin: "auto" }}>
-              <a href={this.project.url} target="_blank">
-                <Card.Img src={this.project.img}></Card.Img>
-                <h2>{this.project.name}</h2>
-              </a>
-              <Card.Text>
-                <i>{this.project.logline}</i>
-              </Card.Text>
+          <Card className="" style={{ width: '100%', maxWidth: "75vw", margin: "auto" }}>
+              {/* <a href={this.project.url} target="_blank"> */}
+                
+              {/* </a> */}
+          
 
               <Accordion>
                 <Accordion.Toggle as={Card.Text} eventKey="1">
-                  <h5 className="text-center dropdown" activeClass="pannel-toggle">Technologies Used ▽</h5>
+                  <div className="dropdown">
+                    <Card.Img src={this.project.img}></Card.Img>
+                    <h4 className="text-center m-0 p-2" activeClass="pannel-toggle">{this.project.name}▽</h4>
+                  </div>
                 </Accordion.Toggle>
                 <Accordion.Collapse eventKey="1">
-
-                    <p>{this.project.descriptions}</p>
-                  
+                    <div className="m-3">
+                      <Card.Text>
+                        <p><i>{this.project.logline}</i></p>
+                      </Card.Text>
+                      <hr/>
+                      <p>{this.project.descriptions}</p>
+                    </div>
                 </Accordion.Collapse>
               </Accordion>
      
                   <Card.Footer className="mt-auto">
-                    <div className="d-inline-block p-2"><a href={this.project.url} target="_blank">Website</a></div>
-                    <div className="d-inline-block p-2"><a href={this.project.video} target="_blank">Video Demo</a></div>
-                    <div className="d-inline-block p-2"><a href={this.project.blog} target="_blank">Blog Post</a></div>
-                    <div className="d-inline-block p-2"><a href={this.project.github} target="_blank">Github</a></div>
+                    <div className="d-inline-block p-1"><a href={this.project.url} target="_blank">Website</a></div>
+                    <div className="d-inline-block p-1"><a href={this.project.video} target="_blank">Video Demo</a></div>
+                    <div className="d-inline-block p-1"><a href={this.project.blog} target="_blank">Blog Post</a></div>
+                    <div className="d-inline-block p-1"><a href={this.project.github} target="_blank">Github</a></div>
                   </Card.Footer>
                 
                 

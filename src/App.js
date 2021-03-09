@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import Projects from './containers/projects.js'
-import Home from './home';
+import Home from './components/home.js';
 import NavBar from './navbar';
 import Contact from './components/contact.js'
 import BlogPosts from './containers/BlogPosts.js'

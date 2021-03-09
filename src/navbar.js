@@ -20,7 +20,7 @@ export default function NavBar(){
         to="home"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-100}
         duration={500}
       >Home</Link>
        <Link
@@ -29,8 +29,9 @@ export default function NavBar(){
         to="projects"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-80}
         duration={500}
+       
       >Projects</Link>
       <Link
         className="nav-item"
@@ -38,7 +39,7 @@ export default function NavBar(){
         to="blog"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-80}
         duration={500}
       >Blog</Link>
       <a className="nav-item">Resume</a>
@@ -48,7 +49,7 @@ export default function NavBar(){
         to="contact"
         spy={true}
         smooth={true}
-        offset={0}
+        offset={-80}
         duration={500}
       >Contact</Link>
 
