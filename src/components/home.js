@@ -8,14 +8,14 @@ import bootstrapImage from '../assets/bootstrap.png'
 export default class Home extends React.Component {
   render() {
     return (
-      <div className="w-100 d-table vh-100 bg-light-red" id="home">
+      <div className="w-100 d-table vh-100 bg-white" id="home">
         <div className="py-auto h-100 d-table-cell align-middle ">
           <div className="box m-auto">
             {/* <div className="col-12 text-center my-auto">
               <img src={meImage} class="prof-img"></img>
             </div> */}
           
-            <div className="col-12 text-center ">
+            <div className="col-12 text-center bio">
               {/* <img src={meImage} class="prof-img"></img> */}
               <h1>Hello, I'm Nick!</h1>
               <i>I'm a strong full-stack developer specializing in Rails, 
@@ -33,13 +33,19 @@ export default class Home extends React.Component {
           </div>
           <div className="my-5">
             <div className="col-12 text-center">
-              <h2 >My Stack Includes</h2>
-              
-              <img src={railsImage} className="tech-stack"></img>
+              <h2 >My Stack</h2>
+              <div className="stack">
+                <i className="p-3">Ruby on Rails</i>
+                <i className="p-3">JavaScript</i>
+                <i className="p-3">React</i>
+                <i className="p-3">Redux</i>
+                <i className="p-3">Bootstrap</i>
+              </div>
+              {/* <img src={railsImage} className="tech-stack"></img>
               <img src={jsImage} className="tech-stack"></img>
               <img src={reactImage} className="tech-stack"></img>
               <img src={reduxImage} className="tech-stack"></img>
-              <img src={bootstrapImage} className="tech-stack"></img>
+              <img src={bootstrapImage} className="tech-stack"></img> */}
             </div>
           </div>
         </div>
