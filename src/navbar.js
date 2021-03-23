@@ -44,7 +44,7 @@ export default function NavBar(){
             offset={-50}
             duration={500}
           >Blog</Link>
-          <a className="page-links" href="https://docs.google.com/document/d/1DUuC8ioFa3sqBJVbjoxrfDJW7aKIoIX01YJgvKto-04/edit?usp=sharing" target="_blank">Resume</a>
+          <a className="page-links" href="https://drive.google.com/file/d/1VtdmiVI1MZ87CUXHHTYwLQtYoZtMh5C0/view?usp=sharing" target="_blank">Resume</a>
           <Link
             className="page-links"
             activeClass="active"
