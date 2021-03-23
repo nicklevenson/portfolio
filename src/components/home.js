@@ -18,22 +18,18 @@ export default class Home extends React.Component {
             <div className="col-12 text-center bio">
               {/* <img src={meImage} class="prof-img"></img> */}
               <h1>Hello, I'm Nick!</h1>
-              <i>I'm a strong full-stack developer specializing in Rails, 
-                JavaScript, and React. 
-                With experience in the film 
-                industry and a deep passion for music and philosophy, 
-                I bring creative problem solving skills, a strong work ethic, 
-                fresh ideas, and a desire to build projects that have a meaningful 
-                impact on society. Future employers will benefit from my ability to 
-                learn quickly, create things swiftly and with care, as well as deep dive 
-                into bugs to solve the problem at hand. </i>
+              <i>Future employers will benefit from my ability to learn quickly, create applications swiftly and with care, as well as deep dive into bugs to solve the problem at hand. 
+                I bring a desire to build projects that have a focus on clarity, usability, and utility. 
+              </i>
+              <br/><br/>
+              <i>I have a passion for recording and writing music, taking up wood working projects, and philosophy. I love coding because it is a perfect balance of creativity and logical problem solving.</i>
               <br/><br/>
               
             </div>
           </div>
           <div className="my-5">
             <div className="col-12 text-center">
-              <h2 >My Stack</h2>
+              <h3 >My Stack</h3>
               <div className="stack">
                 <i className="p-3">Ruby on Rails</i>
                 <i className="p-3">JavaScript</i>

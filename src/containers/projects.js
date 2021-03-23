@@ -3,9 +3,20 @@ import Project from '../components/project'
 import planegame from '../assets/planegame.png'
 import memix from '../assets/memix.png'
 import recipefreak from '../assets/recipefreak.png'
+import mapmate from '../assets/mapmate.png'
 export default class Projects extends React.Component {
   state = {
     projects: [
+      {
+        name: "Map-Mate",
+        logline: "A web application where users can create, collaborate, and share customized, geolocational maps",
+        descriptions: "React - Redux - Thunk - Semantic UI - Mapbox - Ruby on Rails API - Google and Facebook OAuth - PostgreSQL database", 
+        url: "https://map-mate-frontend.herokuapp.com/public-maps", 
+        github:"https://github.com/nicklevenson/maps-frontend", 
+        blog: "https://dev.to/nicklevenson/utilizing-mapbox-to-build-a-map-making-site-with-react-redux-and-rails-1im1", 
+        video:"https://vimeo.com/526993359", 
+        img: mapmate
+      },
       {
         name: "Plane Game",
         logline: "An in browser game which simulates the physics of throwing a paper plane at a target",
