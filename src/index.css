@@ -43,6 +43,9 @@ a {
 .bg-light-red {
   background-color: rgba(241, 225, 193, 0.5)!important;
 }
+.bg-grey-blue {
+  background-color:  rgba(173, 188, 196, 0.829);
+}
 
 .bg-darkish {
    background-color: #212529!important;

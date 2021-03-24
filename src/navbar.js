@@ -10,9 +10,9 @@ export default function NavBar(){
         <div className="header">
           <div className="title d-inline-block">NICK LEVENSON </div>
           <div className="social-links d-inline-block">
-            <a href="https://github.com/nicklevenson" target="_blank"><img src={github} className="nav-icon "></img></a>
-            <a href="https://www.linkedin.com/in/nicholas-levenson-b3a927b2/" target="_blank"><img src={linkedin} className="nav-icon "></img></a>
-            <a href="https://dev.to/nicklevenson" target="_blank"><img src={dev} className="nav-icon "></img></a>
+            <a href="https://github.com/nicklevenson" target="_blank"><img src={github} className="nav-icon " alt="github"></img></a>
+            <a href="https://www.linkedin.com/in/nicholas-levenson-b3a927b2/" target="_blank"><img src={linkedin} className="nav-icon " alt="linkedin"></img></a>
+            <a href="https://dev.to/nicklevenson" target="_blank"><img src={dev} className="nav-icon "alt="blog"></img></a>
           </div>
         </div>
         <div className="nav-links">

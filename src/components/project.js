@@ -17,7 +17,7 @@ export default class Project extends React.Component {
               {/* </a> */}
           
 
-              <Accordion>
+              <Accordion defaultActiveKey="0">
                 <Accordion.Toggle as={Card.Text} eventKey="1">
                   <div className="dropdown">
                     <Card.Img src={this.project.img}></Card.Img>
