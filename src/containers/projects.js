@@ -63,6 +63,7 @@ export default class Projects extends React.Component {
     return (
     <div id="projects" className="w-100 vh-100 bg-white projects-container" >
        <h1>Projects</h1>
+       <i>Click a project for details</i>
       <div className="w-100  d-table mx-auto">
        
         <div className="d-table-cell">

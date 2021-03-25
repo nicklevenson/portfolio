@@ -84,7 +84,7 @@
 } 
 
 .car {
-  width: 100%;
+  width: 80%;
   margin: auto;
   border-radius: 3px;
   min-width: min-content;
@@ -94,10 +94,10 @@
 
   margin-left: 2%;
   margin-right: 2%;
-  width: 40vw;
+  width: 50vw;
 
   min-width: 300px;
-  max-width: 60vh;
+  max-width: 80vh;
   padding: 3%;
 }
 
