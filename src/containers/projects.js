@@ -4,10 +4,12 @@ import planegame from '../assets/planegame.png'
 import memix from '../assets/memix.png'
 import recipefreak from '../assets/recipefreak.png'
 import mapmate from '../assets/mapmate.png'
+import {Carousel} from 'react-bootstrap'
 export default class Projects extends React.Component {
   state = {
     projects: [
       {
+        id: 1,
         name: "Map-Mate",
         logline: "A web application where users can create, collaborate, and share customized, geolocational maps",
         descriptions: "React - Redux - Thunk - Semantic UI - Mapbox - Ruby on Rails API - Google and Facebook OAuth - PostgreSQL database", 
@@ -18,6 +20,7 @@ export default class Projects extends React.Component {
         img: mapmate
       },
       {
+        id: 2,
         name: "Plane Game",
         logline: "An in browser game which simulates the physics of throwing a paper plane at a target",
         descriptions: "JavaScript - Ruby on Rails API - PostgreSQL database - Responsive vanilla CSS", 
@@ -28,9 +31,10 @@ export default class Projects extends React.Component {
         img: planegame
       },
       {
+        id: 3,
         name: "MeMix", 
         logline: "A social application giving users the ability to curate and share multimedia content via personalized mixes",
-        descriptions: "Ruby on Rails - PostgreSQL database - Integrates 4 different apis (Spotify, OMDB, Google Books, the MET) - Custom web scraper (Poetry Foundation) - OAuth, Nokogiri, Bcrypt, Httparty, and ActionText - Bootstrap and CSS.", 
+        descriptions: "Ruby on Rails - PostgreSQL database - Integrates 4 content apis - Custom Web Scraper - OAuth, Nokogiri, Bcrypt, Httparty, and ActionText - Bootstrap and CSS.", 
         url: "https://memix.herokuapp.com/", 
         github:"https://github.com/nicklevenson/me-mix-3", 
         blog: "https://dev.to/nicklevenson/building-a-multimedia-content-sharing-website-with-rails-1gce", 
@@ -38,6 +42,7 @@ export default class Projects extends React.Component {
         img: memix
       },
       {
+        id: 4,
         name: "Recipe Freak",
         logline: "A social application allowing users to create and share their recipes, and add ingredients to grocery lists",
         descriptions: "Ruby, Sinatra, and a PostgreSQL database - MVC fundamentals - Bcrypt - Vanilla CSS and JavaScript", 
@@ -50,19 +55,31 @@ export default class Projects extends React.Component {
     ]
   }
 
+  handleSlide = () =>{
+    console.log("hello")
+  }
  
   render() {
     return (
-    
-      <div id="projects" className="w-100 d-table bg-white pb-5">
-        <div className="d-table-cell align-middle ">
-        <h1>Projects</h1>
+    <div id="projects" className="w-100 vh-100 bg-white projects-container" >
+       <h1>Projects</h1>
+       <i>Click a project for details</i>
+      <div className="w-100  d-table mx-auto">
+       
+        <div className="d-table-cell">
+
         
-          <div className="d-inline-block">
-            {this.state.projects.map(p => <Project project={p}/>)}
+          {/* <div className="d-inline-block "> */}
+            <Carousel interval={null} className=" bg-grey-blue car">
+              {this.state.projects.map(p => 
+              
+                <Carousel.Item ><Project key={p.url} project={p} selectedItem={this.state.selectedItem}/></Carousel.Item>
+              )}
+            </Carousel>
           </div>
-        </div>
+        {/* </div> */}
       </div>
+    </div>
     )
   }
 }
