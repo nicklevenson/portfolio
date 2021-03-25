@@ -5,6 +5,7 @@ import memix from '../assets/memix.png'
 import recipefreak from '../assets/recipefreak.png'
 import mapmate from '../assets/mapmate.png'
 import {Carousel} from 'react-bootstrap'
+import ScrollAnimation from 'react-animate-on-scroll';
 export default class Projects extends React.Component {
   state = {
     projects: [
@@ -61,25 +62,30 @@ export default class Projects extends React.Component {
  
   render() {
     return (
-    <div id="projects" className="w-100 vh-100 bg-white projects-container" >
-       <h1>Projects</h1>
-       <i>Click a project for details</i>
-      <div className="w-100  d-table mx-auto">
-       
-        <div className="d-table-cell">
+      
+        <div id="projects" className="w-100 vh-100 bg-white projects-container" >
+          <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut" offset={250} >
+          <h1>Projects</h1>
+          
+          <i>Click a project for details</i>
+          <div className="w-100  d-table mx-auto">
+          
+            <div className="d-table-cell">
 
-        
-          {/* <div className="d-inline-block "> */}
-            <Carousel interval={null} className=" bg-grey-blue car">
-              {this.state.projects.map(p => 
-              
-                <Carousel.Item ><Project key={p.url} project={p} selectedItem={this.state.selectedItem}/></Carousel.Item>
-              )}
-            </Carousel>
+            
+              {/* <div className="d-inline-block "> */}
+                <Carousel interval={null} className=" bg-grey-blue car">
+                  {this.state.projects.map(p => 
+                  
+                    <Carousel.Item ><Project key={p.url} project={p} selectedItem={this.state.selectedItem}/></Carousel.Item>
+                  )}
+                </Carousel>
+              </div>
+            {/* </div> */}
           </div>
-        {/* </div> */}
-      </div>
-    </div>
+          </ScrollAnimation>
+        </div>
+  
     )
   }
 }
