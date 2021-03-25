@@ -88,7 +88,7 @@
   margin: auto;
   border-radius: 3px;
   min-width: 350px;
-  min-height: 350px;
+  min-height: 70vh;
   padding: 2%;
 }
 .card-container {
