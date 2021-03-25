@@ -1,6 +1,6 @@
 import React from 'react'
 import BlogPost from '../components/BlogPost.js'
-
+import ScrollAnimation from 'react-animate-on-scroll';
 export default class BlogPosts extends React.Component {
   state = {
     fetchedPosts: []
@@ -15,8 +15,9 @@ export default class BlogPosts extends React.Component {
   render(){
     return(
       <div id="blog" className=" w-100 d-table vh-100 bg-light-red">
+        
         <div className="blog-container mx-auto d-table-cell align-middle pb-5">
-          <h1>Blog Posts</h1>
+          <ScrollAnimation animateIn="animate__bounceInLeft" animateOut="animate__bounceOutRight"><h1>Blog Posts</h1></ScrollAnimation>
           {this.state.fetchedPosts.map(b => <BlogPost blog={b}></BlogPost>)}
         </div>
       </div>
