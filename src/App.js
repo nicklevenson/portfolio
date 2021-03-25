@@ -5,7 +5,7 @@ import Home from './components/home.js';
 import NavBar from './navbar';
 import Contact from './components/contact.js'
 import BlogPosts from './containers/BlogPosts.js'
-
+import "animate.css/animate.min.css";
 class App extends React.Component{
   render() {
     return (

@@ -4,6 +4,8 @@ import jsImage from '../assets/js.png'
 import reactImage from '../assets/react.png'
 import reduxImage from '../assets/redux.png'
 import bootstrapImage from '../assets/bootstrap.png'
+import Fade from 'react-reveal/Fade';
+import ScrollAnimation from 'react-animate-on-scroll';
 // import meImage from './assets/me.jpeg'
 export default class Home extends React.Component {
   render() {
@@ -14,7 +16,8 @@ export default class Home extends React.Component {
             {/* <div className="col-12 text-center my-auto">
               <img src={meImage} class="prof-img"></img>
             </div> */}
-          
+          <ScrollAnimation animateIn="animate__fadeInLeft" animateOut="animate__fadeOutLeft" offset={200}>
+         
             <div className="col-12 text-center bio">
               {/* <img src={meImage} class="prof-img"></img> */}
               <h1>Hello, I'm Nick!</h1>
@@ -25,9 +28,11 @@ export default class Home extends React.Component {
               <br/><br/>
               <i>I have a passion for recording and writing music, taking up wood working projects, playing games, and philosophizing life. I love coding because it is a perfect balance of creativity and logical problem solving.</i>
               <br/><br/>
-              
             </div>
+     
+          </ScrollAnimation>
           </div>
+          <ScrollAnimation animateIn="animate__fadeInRight" animateOut="animate__fadeOutRight" offset={200}>
           <div className="my-5">
             <div className="col-12 text-center">
               <h3 >My Stack</h3>
@@ -45,6 +50,7 @@ export default class Home extends React.Component {
               <img src={bootstrapImage} className="tech-stack"></img> */}
             </div>
           </div>
+         </ScrollAnimation>
         </div>
       </div>
     )
