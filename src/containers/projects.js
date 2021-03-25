@@ -64,7 +64,7 @@ export default class Projects extends React.Component {
     return (
       
         <div id="projects" className="w-100 vh-100 bg-white projects-container" >
-          <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut" offset={250} >
+          <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut" offset={200} >
           <h1>Projects</h1>
           
           <i>Click a project for details</i>

@@ -16,7 +16,7 @@ export default class Home extends React.Component {
             {/* <div className="col-12 text-center my-auto">
               <img src={meImage} class="prof-img"></img>
             </div> */}
-          <ScrollAnimation animateIn="animate__fadeInLeft" animateOut="animate__fadeOutLeft" offset={300}>
+          <ScrollAnimation animateIn="animate__fadeInLeft" animateOut="animate__fadeOutLeft" offset={200}>
          
             <div className="col-12 text-center bio">
               {/* <img src={meImage} class="prof-img"></img> */}
@@ -32,7 +32,7 @@ export default class Home extends React.Component {
      
           </ScrollAnimation>
           </div>
-          <ScrollAnimation animateIn="animate__fadeInRight" animateOut="animate__fadeOutRight" offset={300}>
+          <ScrollAnimation animateIn="animate__fadeInRight" animateOut="animate__fadeOutRight" offset={200}>
           <div className="my-5">
             <div className="col-12 text-center">
               <h3 >My Stack</h3>
