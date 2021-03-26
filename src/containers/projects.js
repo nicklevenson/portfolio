@@ -63,8 +63,10 @@ export default class Projects extends React.Component {
   render() {
     return (
       
-        <div id="projects" className="w-100 vh-100 bg-white projects-container" >
+        <div id="projects" className="w-100 vh-100 bg-real-dark projects-container d-table" >
+          <div className="d-table-cell align-middle">
           <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut" offset={200} >
+            
           <h1>Projects</h1>
           
           <i>Click a project for details</i>
@@ -84,6 +86,7 @@ export default class Projects extends React.Component {
             {/* </div> */}
           </div>
           </ScrollAnimation>
+          </div>
         </div>
   
     )

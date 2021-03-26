@@ -9,7 +9,7 @@ export default class Contact extends React.Component {
   render() {
     return (
     
-        <div id="contact" className="w-100 d-table bg-light-red">
+        <div id="contact" className="w-100 d-table bg-light">
           <div className="contact box  mx-auto d-table-cell align-middle">
           <ScrollAnimation animateIn="animate__fadeIn" animateOut="animate__fadeOut" offset={150} >
             <h1>Let's Get In Touch</h1>

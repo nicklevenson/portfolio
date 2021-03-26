@@ -17,7 +17,7 @@ export default class BlogPosts extends React.Component {
       <div id="blog" className=" w-100 d-table vh-100 bg-light-red">
         
         <div className="blog-container mx-auto d-table-cell align-middle pb-5">
-          <ScrollAnimation animateIn="animate__bounceInLeft" animateOut="animate__bounceOutRight"><h1>Blog Posts</h1></ScrollAnimation>
+          <ScrollAnimation animateIn="animate__bounceInLeft"><h1>Blog Posts</h1></ScrollAnimation>
           {this.state.fetchedPosts.map(b => <BlogPost blog={b}></BlogPost>)}
         </div>
       </div>

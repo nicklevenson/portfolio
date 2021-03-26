@@ -90,15 +90,16 @@
   margin: auto;
   border-radius: 3px;
   min-width: 350px;
-  min-height: 70vh;
-  padding: 2%;
+  
+
+  min-height: 350px;
+
+  /* padding-top: 10vh;
+  padding-bottom: 10vh; */
 }
 .card-container {
-
-  margin-left: 2%;
-  margin-right: 2%;
   width: 50vw;
-
+  margin: 2%;
   min-width: 300px;
   max-width: 80vh;
   padding: 3%;
@@ -173,6 +174,9 @@
 }
 h1, h2 {
   font-size: calc(15px + 2vw) !important;
+}
+h3 {
+  font-size: calc(15px + 1vw) !important;
 }
 .blog-container h2 {
   font-size: calc(15px + 1vw) !important;
