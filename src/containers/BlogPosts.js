@@ -9,7 +9,7 @@ export default class BlogPosts extends React.Component {
     fetch(`https://dev.to/api/articles?username=nicklevenson`)
     .then(resp => resp.json())
     .then(json => {
-      this.setState({fetchedPosts: json});
+      this.setState({fetchedPosts: json.splice(0, 6)});
     })
   }
   render(){
